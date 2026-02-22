@@ -2,10 +2,11 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { LayoutDashboard, Video, Mic, Scissors, BarChart3, Zap } from "lucide-react"
+import { LayoutDashboard, Video, Mic, Scissors, BarChart3, Zap, Map } from "lucide-react"
 
 const navItems = [
   { href: "/", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/plan", label: "The Plan", icon: Map },
   { href: "/pipelines/idea-to-video", label: "Idea → Video", icon: Video },
   { href: "/pipelines/rants", label: "Rants", icon: Mic },
   { href: "/pipelines/rants-to-shorts", label: "Rants → Shorts", icon: Scissors },
